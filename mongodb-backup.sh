@@ -6,4 +6,4 @@ DESTINATION=/backups/$DIR
 # Make a new directory based on $DESTINATION and $DIR
 mkdir $DESTINATION
 # Update the following with your host and MongoDB info
-mongodump -h <your_database_host> -d <your_database_name> -u <username> -p <password> -o $DESTINATION
+mongodump -h <db_host> -d <db_name> -u <username> -p <password> -o $DESTINATION
